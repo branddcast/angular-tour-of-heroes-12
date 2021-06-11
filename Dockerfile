@@ -1,7 +1,7 @@
 #------------------ DOCKER CONFIGURATION ------------------
 
 #Primera Etapa
-FROM node:slim as build-step
+FROM node:14 as build-step
 
 RUN mkdir -p /app
 
